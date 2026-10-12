@@ -4,10 +4,10 @@ using NUnit.Framework;
 namespace Testy
 {
     [TestFixture]
-    public class UnitTest1
+    public class ReservationTests
     {
         [Test]
-        public void TestMethod1()
+        public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue()
         {
             //sprawdzamy czy rezerwacja może być odwołana przez Admina
             // 3 razy A - AAA 
@@ -22,7 +22,7 @@ namespace Testy
         }
 
         [Test]
-        public void TestMethod2()
+        public void CanBeCancelledBy_UserIsTheOwnerOfTheReservation_ReturnsTrue()
         {
             //sprawdzamy czy rezerwacja może być odwołana przez użytkownika,
             //który ją zrealizował
@@ -35,7 +35,7 @@ namespace Testy
         }
 
         [Test]
-        public void TestMethod3()
+        public void CanBeCancelledBy_UserIsNotAdminAndNotTheOwner_ReturnsFalse()
         {
             var reservaration = new Reservation { MadeBy = new User() }; //tworzę rezerwację i przypisuję do niej użytkownika
 
