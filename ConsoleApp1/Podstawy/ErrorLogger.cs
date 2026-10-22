@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.Podstawy
+﻿using System;
+
+namespace ConsoleApp1.Podstawy
 {
     public class ErrorLogger
     {
