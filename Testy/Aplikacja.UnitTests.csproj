@@ -119,15 +119,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerControllerTests.cs" />
-    <Compile Include="DemeritPointsCalculatorTests.cs" />
-    <Compile Include="ErrorLoggerTests.cs" />
-    <Compile Include="FizzBuzzTests.cs" />
-    <Compile Include="HtmlFormatterTests.cs" />
-    <Compile Include="MathTests.cs" />
-    <Compile Include="ReservationTests.cs" />
+    <Compile Include="Podstawy\CustomerControllerTests.cs" />
+    <Compile Include="Podstawy\DemeritPointsCalculatorTests.cs" />
+    <Compile Include="Podstawy\ErrorLoggerTests.cs" />
+    <Compile Include="Podstawy\FizzBuzzTests.cs" />
+    <Compile Include="Podstawy\HtmlFormatterTests.cs" />
+    <Compile Include="Podstawy\MathTests.cs" />
+    <Compile Include="Podstawy\ReservationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StackTests.cs" />
+    <Compile Include="Podstawy\StackTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

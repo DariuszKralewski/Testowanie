@@ -24,9 +24,10 @@ namespace Testy
             var logger = new ErrorLogger();
             // Act
             //logger.LogError(invalidMessage);
-            
+
             // Assert
-            Assert.That(()=> logger.LogError(invalidMessage), Throws.ArgumentNullException);
+            Assert.That(() => logger.LogError(invalidMessage), Throws.ArgumentNullException);
             //Assert.That(() => logger.LogError(invalidMessage), Throws.Exception.TypeOf<ArgumentNullException>());
         }
     }
+}

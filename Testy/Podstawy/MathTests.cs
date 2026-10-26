@@ -49,7 +49,6 @@ namespace Testy
             Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
             //More general
             Assert.That(result, Is.Not.Empty); //czy kolekcja nie jest pusta
-            Assert.That(result, Has.Count.EqualTo(3)); //czy kolekcja ma 3 elementy
             Assert.That(result.Count(), Is.EqualTo(3)); //czy kolekcja ma 3 elementy
             Assert.That(result, Does.Contain(1)); //czy kolekcja zawiera 1
             Assert.That(result, Does.Contain(3)); //czy kolekcja zawiera 3
