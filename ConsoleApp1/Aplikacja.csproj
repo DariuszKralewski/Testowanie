@@ -58,7 +58,9 @@
   <ItemGroup>
     <Compile Include="Atrapy\BookingHelper.cs" />
     <Compile Include="Atrapy\EmployeeController.cs" />
+    <Compile Include="Atrapy\FileReader.cs" />
     <Compile Include="Atrapy\HousekeeperHelper.cs" />
+    <Compile Include="Atrapy\IFileReader.cs" />
     <Compile Include="Atrapy\InstallerHelper.cs" />
     <Compile Include="Atrapy\OrderService.cs" />
     <Compile Include="Atrapy\Product.cs" />

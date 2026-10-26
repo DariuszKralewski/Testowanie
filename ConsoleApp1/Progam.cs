@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Atrapy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Aplikacja
     {
         public static int Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var service = new VideoService(); // utworzenie instancji VideoService
+            var title = service.ReadVideoTitle(); // wywołanie metody ReadVideoTitle z użyciem FileReader
             return 0;
         }
     }
