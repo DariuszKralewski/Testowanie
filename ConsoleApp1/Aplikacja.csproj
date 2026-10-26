@@ -64,9 +64,12 @@
     <Compile Include="Atrapy\Product.cs" />
     <Compile Include="Atrapy\VideoService.cs" />
     <Compile Include="Podstawy\CustomerController.cs" />
+    <Compile Include="Podstawy\DemeritPointsCalculator.cs" />
     <Compile Include="Podstawy\ErrorLogger.cs" />
+    <Compile Include="Podstawy\FizzBuzz.cs" />
     <Compile Include="Podstawy\HtmlFormatter.cs" />
     <Compile Include="Podstawy\Math.cs" />
+    <Compile Include="Podstawy\Stack.cs" />
     <Compile Include="Progam.cs" />
     <Compile Include="Podstawy\Reservation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
